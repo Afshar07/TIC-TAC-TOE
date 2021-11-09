@@ -4,7 +4,7 @@ import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vue-tic-tac-toe/',
+  base: '/',
   resolve: {
     alias: [{ find: '@', replacement: resolve('src') }],
   },
